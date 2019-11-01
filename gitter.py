@@ -49,7 +49,7 @@ def createDummyFile(year, month, day, num):
 
 # Loop through days and create commits
 
-for year in [2017, 2018, 2019]:
+for year in [2015, 2016]:
     for month in range(1,13):
         for day in range(1,32):
             for n in range(0, genRand()):
